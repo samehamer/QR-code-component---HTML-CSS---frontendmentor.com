@@ -1,0 +1,56 @@
+
+:root {
+    --dark-blue-color: hsl(218, 44%, 22%);
+    --Grayish-blue-color: hsl(220, 15%, 55%);
+    --White-color: hsl(0,0%,100%);
+    --Light-gray-color: hsl(212, 45%, 89%);
+    }
+
+
+/* End Variables */
+/* Start Global Rules */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    background-color: var(--Grayish-blue-color);
+    background-color: #d6e1f0;
+}
+
+div {
+    background-color: var(--White-color);
+    color: black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px 0 #ccc ;
+    /* box-shadow: 8px 10px 20px 0 #ccc ; */
+}
+
+div img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p:first-of-type{
+    font-weight: bold;
+    background-color: var(--White-color);
+    font-size: 20px;
+    color: #333;
+}
+
+div p:last-of-type {
+    font-weight: 100;
+    font-size: 15px;
+    background-color: var(--White-color);
+    color: #777;
+}
